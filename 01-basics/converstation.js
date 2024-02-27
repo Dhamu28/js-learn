@@ -8,3 +8,7 @@ console.log(valueInNumber);
 let isLoggedIn = 6;
 let boolienIsLoggedIn = Boolean(isLoggedIn);
 console.log(boolienIsLoggedIn);
+// operations
+let one = 1;
+let two = 3;
+console.log(one+two);
