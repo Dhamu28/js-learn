@@ -1,0 +1,10 @@
+const myDate = new Date();
+// console.log(myDate.toString());
+// console.log(myDate.toDateString());
+// console.log(myDate.toLocaleString());
+// console.log(myDate.toLocaleDateString());
+const myNewDate = new Date("12-25-2023");
+console.log(myNewDate);
+let myTime = Date.now();
+console.log(myTime);
+console.log(myNewDate.getTime());
