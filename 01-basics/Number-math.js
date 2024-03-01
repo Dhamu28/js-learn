@@ -12,3 +12,6 @@ const newNum = new Number(300);
 // console.log(Math.ceil(5.5));
 // console.log(Math.round(5.5));
 console.log(Math.round(Math.random(5.5)*10));
+const max = 20;
+const min = 10;
+console.log(Math.floor(Math.random()*(max - min +1))+ min);
