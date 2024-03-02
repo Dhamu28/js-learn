@@ -11,6 +11,7 @@ myHeroes.pop();
 
 // console.log(myHeroes);
 
-myArray.shift(5);
+// myArray.shift(5);
 console.log(myArray);
 console.log(myHeroes);
+console.log(myArray.join());
