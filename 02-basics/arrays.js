@@ -15,3 +15,12 @@ myHeroes.pop();
 console.log(myArray);
 console.log(myHeroes);
 console.log(myArray.join());
+
+// NEXT ARRAY.JS
+const player =  ["Sachin", "Sehwag", "Dhoni"];
+const newPlayer = ["Rohit", "Virat", "Bumrah"];
+// player.push(newPlayer);
+console.log(player);
+//console.log(player[3][2]);// Nested array to access
+player.concat(newPlayer);
+console.log(player);
