@@ -22,5 +22,17 @@ const newPlayer = ["Rohit", "Virat", "Bumrah"];
 // player.push(newPlayer);
 console.log(player);
 //console.log(player[3][2]);// Nested array to access
-player.concat(newPlayer);
-console.log(player);
+const allPlayer = player.concat(newPlayer);
+console.log(allPlayer);
+const allNewPlayer = [...player, ...newPlayer];
+console.log(allNewPlayer);
+const nestArr = [1, 2, [11, 23, [201, 203]], 11, [31, 45], 15 ]
+console.log(nestArr);
+console.log(nestArr.flat(Infinity));
+console.log(nestArr[2][2][1]);
+const strArr = "jugal";
+console.log(Array.from(strArr));
+let scr = 12;
+let scr1 = 125;
+let scr2 = 142;
+console.log(Array.of(scr, scr1, scr2));
