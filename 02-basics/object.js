@@ -44,6 +44,30 @@ console.log(obj1);
 console.log(obj2);
 // merge objects 
 const obj3 = Object.assign({}, obj1, obj2);
-console.log(obj3);
-console.log(obj1);
-console.log(obj2);
+// console.log(obj3);
+// console.log(obj1);
+// console.log(obj2);
+// new method to joint a object or array
+// const joinObj = {...obj1, ...obj2};
+// console.log(joinObj);
+const users = [
+    {
+        id : 1,
+        email : "info@js.com"
+    },
+    {
+        id : 2,
+        email : "info@js.com"
+    },
+    {
+        id : 3,
+        email : "info@js.com"
+    },
+]
+console.log(users[0].id);
+console.log(tinderUser);
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+console.log(tinderUser.hasOwnProperty('age'));
+
