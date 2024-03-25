@@ -1,6 +1,6 @@
 const user = {
     username : "Jugal",
-    price : 009,
+    price : "009",
     welComeMsj : function (){
         console.log(`${this.username}, Welcome to Website`);
         // console.log(this);
@@ -39,9 +39,9 @@ const ptili = () => {
 
 // you also can use arrow function with {}, but you need to put it in same line
 const addTwo = (num1, num2) => num1 + num2;
-const addTwo = (num1, num2) => (num1 + num2);
+const addNumb = (num1, num2) => (num1 + num2);
 // to reture object you need to use ()
-const addTwo = (num1, num2) => ({username: "Dhamu"});
+const addvalue = (num1, num2) => ({username: "Dhamu"});
 
 
 console.log(addTwo('r', 'f'));
