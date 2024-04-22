@@ -45,3 +45,16 @@ if (userEmail) {
 } else {
     console.log("Don't have user email");
 }
+
+// Check empty array
+const emtyArr = [];
+if(emtyArr.length === 0)console.log("Array is empty");
+
+// Check empty array
+
+const emptObj = {};
+if (Object.keys(emptObj).length === 0) console.log("Object is empty");
+
+// terniory operator
+const coffee = 200;
+coffee <= 100 ? console.log("Add to cart") : console.log("Don't want to buy");
